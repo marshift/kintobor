@@ -1,0 +1,12 @@
+{
+    "name": "kintobor",
+    "description": "master server register-er for sonic robo blast 2",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "src/index.js",
+    "author": "marshift",
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "@marshift/argus": "^1.0.1"
+    }
+}
