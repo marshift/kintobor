@@ -14,13 +14,13 @@ export async function api(endpoint, options) {
 export const register = async (roomId, port, title, version) =>
     api(`/rooms/${roomId}/register`, {
         method: "POST",
-        body: { port, title, version }
+        body: new URLSearchParams({ port, title, version }),
     });
 
 export const update = async (serverId, title) =>
     api(`/servers/${serverId}/update`, {
         method: "POST",
-        body: { title }
+        body: new URLSearchParams({ title }),
     });
 
 export const unlist = async (serverId) => api(`/servers/${serverId}/unlist`, { method: "POST" });
