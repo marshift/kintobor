@@ -1,13 +1,16 @@
-lockfileVersion: 5.4
+lockfileVersion: '6.0'
 
-specifiers:
-  '@marshift/argus': ^1.0.1
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
-  '@marshift/argus': 1.0.1
+  '@marshift/argus':
+    specifier: ^1.0.1
+    version: 1.0.1
 
 packages:
 
-  /@marshift/argus/1.0.1:
+  /@marshift/argus@1.0.1:
     resolution: {integrity: sha512-iJPCZBvmmwT8I1KDm/lbA9YQHI7QYxnN0XUft5zVJatsd1XjL3mV2Cf5orTX9b77CPoQJjTJqIGul1bfM/Zijg==}
     dev: false
