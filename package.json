@@ -4,7 +4,9 @@
     "version": "1.0.1",
     "type": "module",
     "main": "src/index.js",
-    "bin": "src/index.js",
+    "bin": {
+        "kintobor": "src/index.js"
+    },
     "author": "marshift",
     "license": "BSD-3-Clause",
     "dependencies": {
